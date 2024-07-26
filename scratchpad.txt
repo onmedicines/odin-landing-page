@@ -1,0 +1,43 @@
+{
+    * {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+#hero {
+  background-color: #1f2937;
+  color: white;
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5rem;
+
+    .logo {
+      font-size: 1.5rem;
+    }
+    .links {
+      a {
+        color: rgb(173, 173, 173);
+        text-decoration: none;
+      }
+      ul {
+        list-style: none;
+      }
+    }
+  }
+  main {
+    display: flex;
+    gap: 3rem;
+    .text {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+}
+
+}
+{
+    free online image url: https://picsum.photos/200/300
+}
