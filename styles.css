@@ -5,6 +5,9 @@
   --text-secondary: rgb(136, 131, 131);
   --heading: 5rem;
 }
+html {
+  zoom: 80%;
+}
 * {
   margin: 0;
   padding: 0;
